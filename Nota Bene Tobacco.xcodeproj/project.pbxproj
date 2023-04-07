@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E34486020A932A28ECA1F6 /* Pods_Nota_Bene_Tobacco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F1150C378345822EA71DF /* Pods_Nota_Bene_Tobacco.framework */; };
+		23934FFC29D429E3004E5A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23934FFB29D429E3004E5A17 /* AppDelegate.swift */; };
+		23934FFE29D429E3004E5A17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23934FFD29D429E3004E5A17 /* SceneDelegate.swift */; };
+		2393500029D429E3004E5A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23934FFF29D429E3004E5A17 /* ViewController.swift */; };
+		2393500329D429E3004E5A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2393500129D429E3004E5A17 /* Main.storyboard */; };
+		2393500529D429E3004E5A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2393500429D429E3004E5A17 /* Assets.xcassets */; };
+		2393501329D42B8E004E5A17 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2393501229D42B8E004E5A17 /* TabBar.storyboard */; };
+		2393501529D436BA004E5A17 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2393501429D436BA004E5A17 /* Launch Screen.storyboard */; };
+		2393501729D43960004E5A17 /* tabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393501629D43960004E5A17 /* tabBarController.swift */; };
+		2393501F29D43EBE004E5A17 /* AssortmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393501E29D43EBE004E5A17 /* AssortmentViewController.swift */; };
+		2393502129D43ECA004E5A17 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393502029D43ECA004E5A17 /* BasketViewController.swift */; };
+		2393502329D43ED5004E5A17 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393502229D43ED5004E5A17 /* LocationViewController.swift */; };
+		2393502529D43EDF004E5A17 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393502429D43EDF004E5A17 /* NewsViewController.swift */; };
+		2393502729D43EF5004E5A17 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393502629D43EF5004E5A17 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23934FF829D429E3004E5A17 /* Nota Bene Tobacco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nota Bene Tobacco.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23934FFB29D429E3004E5A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23934FFD29D429E3004E5A17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23934FFF29D429E3004E5A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2393500229D429E3004E5A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2393500429D429E3004E5A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2393500929D429E3004E5A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2393501229D42B8E004E5A17 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		2393501429D436BA004E5A17 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2393501629D43960004E5A17 /* tabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarController.swift; sourceTree = "<group>"; };
+		2393501E29D43EBE004E5A17 /* AssortmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentViewController.swift; sourceTree = "<group>"; };
+		2393502029D43ECA004E5A17 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		2393502229D43ED5004E5A17 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		2393502429D43EDF004E5A17 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		2393502629D43EF5004E5A17 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		58087B1677A798A0422AC46F /* Pods-Nota Bene Tobacco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nota Bene Tobacco.debug.xcconfig"; path = "Target Support Files/Pods-Nota Bene Tobacco/Pods-Nota Bene Tobacco.debug.xcconfig"; sourceTree = "<group>"; };
+		955F1150C378345822EA71DF /* Pods_Nota_Bene_Tobacco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nota_Bene_Tobacco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8906F46ADC3D71A3B143E5B /* Pods-Nota Bene Tobacco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nota Bene Tobacco.release.xcconfig"; path = "Target Support Files/Pods-Nota Bene Tobacco/Pods-Nota Bene Tobacco.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23934FF529D429E3004E5A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E34486020A932A28ECA1F6 /* Pods_Nota_Bene_Tobacco.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23934FEF29D429E2004E5A17 = {
+			isa = PBXGroup;
+			children = (
+				23934FFA29D429E3004E5A17 /* Nota Bene Tobacco */,
+				23934FF929D429E3004E5A17 /* Products */,
+				A9B9460F31658BD4B62B2668 /* Pods */,
+				F9A8B09A62C9E4D302E646BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23934FF929D429E3004E5A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23934FF829D429E3004E5A17 /* Nota Bene Tobacco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23934FFA29D429E3004E5A17 /* Nota Bene Tobacco */ = {
+			isa = PBXGroup;
+			children = (
+				2393500F29D42AB7004E5A17 /* Application */,
+				2393501029D42AE5004E5A17 /* Main */,
+				2393501129D42B66004E5A17 /* TabBar */,
+				2393500429D429E3004E5A17 /* Assets.xcassets */,
+				2393501429D436BA004E5A17 /* Launch Screen.storyboard */,
+				2393500929D429E3004E5A17 /* Info.plist */,
+			);
+			path = "Nota Bene Tobacco";
+			sourceTree = "<group>";
+		};
+		2393500F29D42AB7004E5A17 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				23934FFB29D429E3004E5A17 /* AppDelegate.swift */,
+				23934FFD29D429E3004E5A17 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2393501029D42AE5004E5A17 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				23934FFF29D429E3004E5A17 /* ViewController.swift */,
+				2393500129D429E3004E5A17 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2393501129D42B66004E5A17 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2393501829D43E34004E5A17 /* Assortment */,
+				2393501929D43E4E004E5A17 /* Basket */,
+				2393501B29D43E67004E5A17 /* Location */,
+				2393501C29D43E6F004E5A17 /* News */,
+				2393501D29D43E78004E5A17 /* Profile */,
+				2393501229D42B8E004E5A17 /* TabBar.storyboard */,
+				2393501629D43960004E5A17 /* tabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2393501829D43E34004E5A17 /* Assortment */ = {
+			isa = PBXGroup;
+			children = (
+				2393501E29D43EBE004E5A17 /* AssortmentViewController.swift */,
+			);
+			path = Assortment;
+			sourceTree = "<group>";
+		};
+		2393501929D43E4E004E5A17 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				2393502029D43ECA004E5A17 /* BasketViewController.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		2393501B29D43E67004E5A17 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				2393502229D43ED5004E5A17 /* LocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		2393501C29D43E6F004E5A17 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2393502429D43EDF004E5A17 /* NewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2393501D29D43E78004E5A17 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2393502629D43EF5004E5A17 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A9B9460F31658BD4B62B2668 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58087B1677A798A0422AC46F /* Pods-Nota Bene Tobacco.debug.xcconfig */,
+				D8906F46ADC3D71A3B143E5B /* Pods-Nota Bene Tobacco.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9A8B09A62C9E4D302E646BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955F1150C378345822EA71DF /* Pods_Nota_Bene_Tobacco.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23934FF729D429E3004E5A17 /* Nota Bene Tobacco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2393500C29D429E3004E5A17 /* Build configuration list for PBXNativeTarget "Nota Bene Tobacco" */;
+			buildPhases = (
+				F931ED65CC1C8F582F9521CA /* [CP] Check Pods Manifest.lock */,
+				23934FF429D429E3004E5A17 /* Sources */,
+				23934FF529D429E3004E5A17 /* Frameworks */,
+				23934FF629D429E3004E5A17 /* Resources */,
+				8BE3BC214C09EB18C72D5192 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nota Bene Tobacco";
+			productName = "Nota Bene Tobacco";
+			productReference = 23934FF829D429E3004E5A17 /* Nota Bene Tobacco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23934FF029D429E2004E5A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					23934FF729D429E3004E5A17 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 23934FF329D429E2004E5A17 /* Build configuration list for PBXProject "Nota Bene Tobacco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23934FEF29D429E2004E5A17;
+			productRefGroup = 23934FF929D429E3004E5A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23934FF729D429E3004E5A17 /* Nota Bene Tobacco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23934FF629D429E3004E5A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2393501329D42B8E004E5A17 /* TabBar.storyboard in Resources */,
+				2393500529D429E3004E5A17 /* Assets.xcassets in Resources */,
+				2393501529D436BA004E5A17 /* Launch Screen.storyboard in Resources */,
+				2393500329D429E3004E5A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BE3BC214C09EB18C72D5192 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nota Bene Tobacco/Pods-Nota Bene Tobacco-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nota Bene Tobacco/Pods-Nota Bene Tobacco-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nota Bene Tobacco/Pods-Nota Bene Tobacco-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F931ED65CC1C8F582F9521CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nota Bene Tobacco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23934FF429D429E3004E5A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2393502329D43ED5004E5A17 /* LocationViewController.swift in Sources */,
+				2393502129D43ECA004E5A17 /* BasketViewController.swift in Sources */,
+				2393500029D429E3004E5A17 /* ViewController.swift in Sources */,
+				2393501729D43960004E5A17 /* tabBarController.swift in Sources */,
+				2393501F29D43EBE004E5A17 /* AssortmentViewController.swift in Sources */,
+				23934FFC29D429E3004E5A17 /* AppDelegate.swift in Sources */,
+				2393502729D43EF5004E5A17 /* ProfileViewController.swift in Sources */,
+				23934FFE29D429E3004E5A17 /* SceneDelegate.swift in Sources */,
+				2393502529D43EDF004E5A17 /* NewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2393500129D429E3004E5A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2393500229D429E3004E5A17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2393500A29D429E3004E5A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2393500B29D429E3004E5A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2393500D29D429E3004E5A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58087B1677A798A0422AC46F /* Pods-Nota Bene Tobacco.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RAF86LK9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nota Bene Tobacco/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This demo application displays user location now";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desalutare.Nota-Bene-Tobacco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2393500E29D429E3004E5A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8906F46ADC3D71A3B143E5B /* Pods-Nota Bene Tobacco.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RAF86LK9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nota Bene Tobacco/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This demo application displays user location now";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desalutare.Nota-Bene-Tobacco";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23934FF329D429E2004E5A17 /* Build configuration list for PBXProject "Nota Bene Tobacco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2393500A29D429E3004E5A17 /* Debug */,
+				2393500B29D429E3004E5A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2393500C29D429E3004E5A17 /* Build configuration list for PBXNativeTarget "Nota Bene Tobacco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2393500D29D429E3004E5A17 /* Debug */,
+				2393500E29D429E3004E5A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23934FF029D429E2004E5A17 /* Project object */;
+}
